@@ -1,13 +1,24 @@
 {
-  "devDependencies": {
-    "@wix/cli": "^1.0.0",
-    "@wix/eslint-plugin-cli": "^1.0.0",
-    "eslint": "^8.25.0",
-    "react": "16.14.0"
-  },
+  "name": "crimetime",
+  "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
-    "postinstall": "wix sync-types",
-    "dev": "wix dev",
-    "lint": "eslint ."
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hepler1394/crimetime.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hepler1394/crimetime/issues"
+  },
+  "homepage": "https://github.com/hepler1394/crimetime#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
   }
 }
